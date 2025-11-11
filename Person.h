@@ -6,7 +6,7 @@ using namespace std;
 
 //#write Person class here
 
-
+public class  Person{
 
 private:
   string name;
@@ -14,7 +14,7 @@ private:
 public :
   public void display();
 
-
+}
 
 
 
