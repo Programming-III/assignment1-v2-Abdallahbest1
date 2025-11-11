@@ -10,7 +10,18 @@ using namespace std;
 
 // ==================== Person Class Implementation =========================
 
-class
+class Person{
+   Person(string n , int id){
+      name = n;
+      this.id = id; 
+   }
+
+   void display(){
+      cout<< Person.name << " "<<Person.id<<endl;
+      
+   }
+
+}
 
 
 
@@ -20,7 +31,10 @@ class
 // ==================== Student Class Implementation ====================
 
 
+class Student{
+   Student(
 
+}
 
 
 
