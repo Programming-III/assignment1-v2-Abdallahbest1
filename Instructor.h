@@ -1,20 +1,19 @@
-#ifndef INSTRUCTOR_H
-#define INSTRUCTOR_H
+#ifndef PERSON_H
+#define PERSON_H
 
-#include "Person.h"
+#include <string>
 using namespace std;
-//#write Instructor class here
 
+//#write Person class here
+ class  Person{
 
-public class Instructor{
-
+private:
+  string name;
+  int id;
 public :
-  string departement;
-  int experienceYears;
-  void display();
-}
+ void display();
 
-
+};
 
 
 
