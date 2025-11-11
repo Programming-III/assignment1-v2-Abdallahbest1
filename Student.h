@@ -1,17 +1,19 @@
-#ifndef PERSON_H
-#define PERSON_H
+#ifndef STUDENT_H
+#define STUDENT_H
 
+#include "Person.h"
 #include <string>
 using namespace std;
+//#write student class here
 
-//#write Person class here
- class  Person{
+class Student:public Person{
 
-private:
-  string name;
-  int id;
-public :
- Student(string n , int i, int yl , string m ){
+
+public:
+  int yearLevel;
+  string major;
+
+  Student(string n , int i, int yl , string m ){
       super(name , id);
       yearLevel = yl;
       major =m;
@@ -21,6 +23,10 @@ public :
    }
 
 };
+
+
+
+
 
 
 
