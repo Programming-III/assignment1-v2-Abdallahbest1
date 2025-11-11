@@ -8,6 +8,11 @@ using namespace std;
 
 
 
+private:
+  string name;
+  int id;
+public :
+  public void display();
 
 
 
