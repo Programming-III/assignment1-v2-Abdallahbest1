@@ -6,7 +6,7 @@
 using namespace std;
 //#write your code here
 
-public class Course{
+class Course{
 
   private:
     string courseCode;
@@ -18,8 +18,7 @@ public class Course{
     void displayCourseInfo();
     Student addStudent(const Student& s);
 
-}
-
+};
 
 
 
