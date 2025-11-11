@@ -1,26 +1,28 @@
-#ifndef COURSE_H
-#define COURSE_H
+#ifndef INSTRUCTOR_H
+#define INSTRUCTOR_H
 
-#include <string>
-#include "Student.h"
+#include "Person.h"
 using namespace std;
-//#write your code here
+//#write Instructor class here
 
-class Course{
 
-  private:
-    string courseCode;
-    string courseName;
-    int maxStudents;
-    Student* students;
-    int currentStudents;
-  public :
-    void displayCourseInfo();
-    Student addStudent(const Student& s);
+class Instructor: public Person{
 
+public :
+  string departement;
+  int experienceYears;
+  void display();
+  
+  Instructor(string n , int i, string d , int ey){
+         super(name,id);
+         departement = d;
+         experienceYears = ey;
+   }
+   void display(){
+         cout << Instructor.name<<" "<<Instructor.id<<" "<<Instructor.departement<<" "<<Instructor.experienceYears<<endl;
+      }
+   }
 };
-
-
 
 
 
