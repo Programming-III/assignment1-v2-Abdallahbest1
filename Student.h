@@ -11,7 +11,14 @@ private:
   string name;
   int id;
 public :
- void display();
+ Student(string n , int i, int yl , string m ){
+      super(name , id);
+      yearLevel = yl;
+      major =m;
+   }
+   void display(){
+      cout << Student.name<<" "<<Student.id<<" "<<Student.yearLevel<<" "<<Student.major<<endl;
+   }
 
 };
 
