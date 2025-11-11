@@ -11,7 +11,10 @@ private:
   string name;
   int id;
 public :
- void display();
+ void display(){
+      cout<< Person.name << " "<<Person.id<<endl;
+      
+   }
 
 };
 
